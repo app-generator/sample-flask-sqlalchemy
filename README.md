@@ -6,7 +6,7 @@
 
 > Features
 
-- Simple Flask codebase built with `best-practices` and simplicity in mind
+- Simple Flask codebase built with `simplicity` in mind
 - DBMS: `SQLite` Storage
 - DB Tools: `SQLAlchemy` ORM, `Flask-Migrate` (schema migrations)
 - Permissive MIT License - allows unlimited copies for hobby and commercial products
@@ -329,7 +329,7 @@ The changes required by this phase:
 
 **How it works**
 
-After `Flask-Migrate` is properly intergrated we should run `db init` and `db migrate` to generate the **initial state** for our database. let's do it. 
+After `Flask-Migrate` is properly intergrated we should run `db init` and `db migrate` to generate the **initial state** for our database.
 
 ```bash
 $ # This command will create a migrations folder
