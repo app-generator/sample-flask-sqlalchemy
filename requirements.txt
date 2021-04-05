@@ -1,2 +1,5 @@
 flask
 gunicorn
+sqlalchemy==1.4.5
+flask_sqlalchemy==2.5.1
+flask_migrate==2.7.0

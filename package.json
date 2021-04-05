@@ -1,7 +1,7 @@
 {
     "name": "flask-database-sample",
     "mastertemplate": "jinja-atlantis-dark",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Flask Database - Open-source Sample, provided by AppSeed.",
     "scripts": {},
     "repository": {
