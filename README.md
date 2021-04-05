@@ -78,7 +78,7 @@ $ # Access the UI in browser: http://127.0.0.1:5000/
 
 <br />
 
-## Code-base structure
+## Codebase structure
 
 The project has a simple structure, represented as bellow:
 
@@ -120,13 +120,13 @@ The project has a simple structure, represented as bellow:
 
 <br />
 
-### Phase#1 - Initial Codebase
+## Phase#1 - Initial Codebase
 
 The project is forked from a [simple Flask template](https://github.com/app-generator/jinja-atlantis-dark), without database or other hard dependencies. The design was translated to Jinja template and ... that's all. 
 
 <br />
 
-### Phase#2 - Update `requirements`
+## Phase#2 - Update `requirements`
 
 Added libraries required by the project: 
 
@@ -136,7 +136,7 @@ Added libraries required by the project:
 
 <br />
 
-### Phase#3 - Integrate SqlAlchemy
+## Phase#3 - Integrate SqlAlchemy
 
 The changes required by this phase:
 
@@ -174,7 +174,7 @@ app.config['SQLALCHEMY_DATABASE_URI']        = 'sqlite:///' + os.path.join(based
 
 <br />
 
-### Phase#4 - Configuration Update
+## Phase#4 - Configuration Update
 
 Optional phase - Configuration variables defined in `app/__init__.py` file will be moved to a separate file for a cleaner design.  
 
@@ -204,7 +204,7 @@ Using `Flask CLI` to print the variables defined in `app/config.py` we should se
 
 <br />
 
-### Phase#5 - New Table
+## Phase#5 - New Table
 
 In this phase we will define and integrate a simple table called `Stats` with three columns: Id, Month (unique string), Sold_units (Integer)
 
@@ -313,7 +313,7 @@ In the same way we can save the information for all months:
 
 <br />
 
-### Phase#6 - Migrations
+## Phase#6 - Migrations
 
 In this phase we will update the `Stats` with a new column: `total sales` (Integer)
 
