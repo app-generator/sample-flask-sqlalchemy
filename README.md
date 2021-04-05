@@ -1,14 +1,14 @@
 # Flask Database Sample
 
-Flask Sample project that provides an integration of SQLAlchemy ORM on top of a simple Flask Codebase. This project might help beginners to code a `real` project on top of Flask. For newcomers, Flask is a lightweight web application framework written in Python. By using a database in our project, we can have a persistent data layer that can be reused and updated according to application requirements.  
+**Flask** Sample project that provides an integration of **SQLAlchemy** ORM on top of a simple Flask Codebase. This project might help beginners to code a `real` project on top of Flask. For newcomers, Flask is a lightweight web application framework written in Python. By using a database in our project, we can have a persistent data layer that can be reused and updated according to application requirements.  
 
 <br />
 
 > Features
 
 - Simple Flask codebase built with `best-practices` in mind
-- DBMS: SQLite Storage
-- DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
+- DBMS: `SQLite` Storage
+- DB Tools: `SQLAlchemy` ORM, `Flask-Migrate` (schema migrations)
 - Permissive MIT License - allows unlimited copies for hobby and commercial products
 - Free support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
@@ -17,7 +17,7 @@ Flask Sample project that provides an integration of SQLAlchemy ORM on top of a 
 > Links
 
 - [Atlantis Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark) - A full-featured Flask starter 
-- [Jinja Atlantis Dark - Demo](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Demo
+- [Atlantis Lite Flask - Demo](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Deployment
 
 <br />
 
