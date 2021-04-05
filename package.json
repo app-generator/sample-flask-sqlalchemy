@@ -1,0 +1,21 @@
+{
+    "name": "jinja-template-atlantis-dark",
+    "mastertemplate": "theme-jinja2",
+    "version": "1.0.1",
+    "description": "Template project - Flask/Jinja2 Theme",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/app-generator/jinja-template-atlantis-dark"
+    },
+    "bugs": {
+        "url": "https://github.com/app-generator/jinja-template-atlantis-dark/issues",
+        "email": "support@appseed.us"
+    },
+    "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
