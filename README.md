@@ -31,7 +31,8 @@
 
 > Links
 
-- [Atlantis Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark) - A full-featured Flask starter 
+- [Atlantis Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark) - Free Starter with more features:
+    - Authentication, Blueprints, Dual Config (dev & production), Deploy scripts.
 - [Atlantis Lite Flask - Demo](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Deployment
 
 <br />
@@ -143,7 +144,7 @@ The changes required by this phase:
 - Update `requirements.txt`: added `sqlalchemy` and `flask_sqlalchemy`
 - Update `app/__init__.py` to use SqlAlchemy
     - import `SQLAlchemy` library
-    - define the mnimum config required: `SQLALCHEMY_DATABASE_URI` and `SQLALCHEMY_TRACK_MODIFICATIONS`
+    - define the configuration: `SQLALCHEMY_DATABASE_URI` and `SQLALCHEMY_TRACK_MODIFICATIONS`
     - Bind SqlAlchemy to `app` object
     - SqlAlchemy interface is exposed via `db` object
 
