@@ -20,4 +20,4 @@ app.config.from_object('app.config.Config')
 db = SQLAlchemy (app)
 
 # Import routing to render the pages
-from app import views
+from app import views, models
