@@ -2,6 +2,8 @@
 
 **Flask** Sample project that provides an integration of **SQLAlchemy** ORM on top of a simple Flask Codebase. This project might help beginners to code a `real` project on top of Flask. For newcomers, Flask is a lightweight web application framework written in Python. By using a database in our project, we can have a persistent data layer that can be reused and updated according to application requirements.  
 
+> STATUS: @WIP (work in progress)
+
 <br />
 
 > Features
@@ -11,6 +13,21 @@
 - DB Tools: `SQLAlchemy` ORM, `Flask-Migrate` (schema migrations)
 - Permissive MIT License - allows unlimited copies for hobby and commercial products
 - Free support via **Github** and [Discord](https://discord.gg/fZC6hup).
+
+<br />
+
+> Implementation @Todo list
+
+- Add `SQLAlchemy` ORM to the `requirements.txt`
+    - [SqlAlchemy](https://pypi.org/project/SQLAlchemy/) - v1.4.5     
+    - [Flask-SQLAlchemy](https://pypi.org/project/Flask-SQLAlchemy/) - v2.5.1      
+- `Update codebase` to use `SQLAlchemy`
+- Define a `new model`
+- `Populate` the new table with `new data`
+- Visualize the information on dashboard
+- Use a `migration` to update the model (add new field)
+    - Integrate/Use [Flask-Migrate](https://pypi.org/project/Flask-Migrate/) v2.7.0
+- Use the new information on dashboard 
 
 <br />
 
