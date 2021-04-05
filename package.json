@@ -1,15 +1,15 @@
 {
-    "name": "jinja-template-atlantis-dark",
-    "mastertemplate": "theme-jinja2",
-    "version": "1.0.1",
-    "description": "Template project - Flask/Jinja2 Theme",
+    "name": "flask-database-sample",
+    "mastertemplate": "jinja-atlantis-dark",
+    "version": "0.0.1",
+    "description": "Flask Database - Open-source Sample, provided by AppSeed.",
     "scripts": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/jinja-template-atlantis-dark"
+        "url": "https://github.com/app-generator/flask-database-sample"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/jinja-template-atlantis-dark/issues",
+        "url": "https://github.com/app-generator/flask-database-sample/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",

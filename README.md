@@ -1,31 +1,27 @@
-# [Jinja Template](https://appseed.us/jinja-template) - **[Atlantis Lite](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark)**
+# Flask Database Sample
 
-> Seed project coded in Flask/Jinja on top of Atlantis Lite (free version) - Features:
+Flask Sample project that provides an integration of SQLAlchemy ORM on top of a simple Flask Codebase. This project might help beginners to code a `real` project on top of Flask. For newcomers, Flask is a lightweight web application framework written in Python. By using a database in our project, we can have a persistent data layer that can be reused and updated according to application requirements.  
 
 <br />
 
-- UI Kit: **[Atlantis Lite](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark)** (Free Version) by **ThemeKita**
-- Render Engine: [Jinja2](https://jinja.palletsprojects.com/)
-- Framework: Flask (no database, no hard dependencies)
+> Features
+
+- Simple Flask codebase built with `best-practices` in mind
+- DBMS: SQLite Storage
+- DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
+- Permissive MIT License - allows unlimited copies for hobby and commercial products
 - Free support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
 > Links
 
-- [Jinja Atlantis Dark](https://appseed.us/jinja-template/jinja-template-atlantis-dark) - Product page
-- [Jinja Atlantis Dark - Demo](https://jinja-atlantis-dark.appseed-srv1.com/) - LIVE Demo
-- [Atlantis Lite - UI Docs](https://atlantis-lite.appseed.us/) - how to customize the UI
+- [Atlantis Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark) - A full-featured Flask starter 
+- [Jinja Atlantis Dark - Demo](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Demo
 
 <br />
 
-## **[Atlantis Lite](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark)**
-
-**Atlantis Lite** is a free bootstrap 4 admin dashboard that is beautifully and elegantly designed to display various metrics, numbers or data visualization. Atlantis Lite admin dashboard has 2 layouts, many plugins and UI components to help developers create dashboards quickly and effectively so they can save development time and also help users to make the right and fast decisions based on existing data.
-
-<br />
-
-![Template Jinja2 Theme - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-template-atlantis-dark/master/media/jinja-template-atlantis-dark-screen.png)
+![Flask Database - Open-source sample provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-dashboard-atlantis-dark/master/media/flask-dashboard-atlantis-dark-screen.png)
 
 <br />
 
@@ -33,8 +29,8 @@
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/jinja-template-atlantis-dark.git
-$ cd jinja-template-atlantis-dark
+$ git clone https://github.com/app-generator/flask-database-sample.git
+$ cd flask-database-sample
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -123,8 +119,8 @@ The steps to start the template using Docker:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/jinja-template-atlantis-dark.git
-$ cd jinja-template-atlantis-dark
+$ git clone https://github.com/app-generator/flask-database-sample.git
+$ cd flask-database-sample
 ```
 
 > Start the app in Docker
@@ -137,48 +133,6 @@ Visit `http://localhost:5005` in your browser. The app should be up & running.
 
 <br />
 
-### [Gunicorn](https://gunicorn.org/)
----
-
-Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.
-
-> Install using pip
-
-```bash
-$ pip install gunicorn
-```
-> Start the app using gunicorn binary
-
-```bash
-$ gunicorn --bind 0.0.0.0:8001 run:app
-Serving on http://localhost:8001
-```
-
-Visit `http://localhost:8001` in your browser. The app should be up & running.
-
-<br />
-
-### [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/)
----
-
-Waitress (Gunicorn equivalent for Windows) is meant to be a production-quality pure-Python WSGI server with very acceptable performance. It has no dependencies except ones that live in the Python standard library.
-
-> Install using pip
-
-```bash
-$ pip install waitress
-```
-> Start the app using [waitress-serve](https://docs.pylonsproject.org/projects/waitress/en/stable/runner.html)
-
-```bash
-$ waitress-serve --port=8001 run:app
-Serving on http://localhost:8001
-```
-
-Visit `http://localhost:8001` in your browser. The app should be up & running.
-
-<br />
-
 ## Credits & Links
 
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The official website
@@ -186,4 +140,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template](https://appseed.us/jinja-template) **[Atlantis Lite](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+Flask Database Sample - Open-source sample provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
