@@ -316,7 +316,7 @@ In the same way we can save the information for all months:
 
 ## Phase#6 - Migrations
 
-In this phase we will update the `Stats` with a new column: `total sales` (Integer)
+In this phase, we will update the `Stats` with a new column: `total sales` (Integer)
 
 The changes required by this phase:
 
@@ -329,7 +329,7 @@ The changes required by this phase:
 
 **How it works**
 
-After `Flask-Migrate` is properly intergrated we should run `db init` and `db migrate` to generate the **initial state** for our database.
+After `Flask-Migrate` is properly integrated we should run `db init` and `db migrate` to generate the **initial state** for our database.
 
 ```bash
 $ # This command will create a migrations folder
@@ -363,7 +363,7 @@ By inspecting the `app/db.sqlite3` (SQLite database) we should see the new chang
 
 <br />
 
-![Flask Database Sample - SQL view of decalred information.](https://raw.githubusercontent.com/app-generator/flask-database-sample/master/media/flask-database-sample-sqlite-view.png)
+![Flask Database Sample - SQL view of declared information.](https://raw.githubusercontent.com/app-generator/flask-database-sample/master/media/flask-database-sample-sqlite-view.png)
 
 <br />
 
