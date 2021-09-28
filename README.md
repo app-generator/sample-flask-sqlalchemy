@@ -1,4 +1,4 @@
-# Flask Database Sample
+# [Flask Database Sample](https://blog.appseed.us/flask-database-how-to-create-sqlite/)
 
 **Flask** Sample project that provides an integration of **SQLAlchemy** ORM on top of a simple Flask Codebase. **[Flask Database](https://blog.appseed.us/flask-database-how-to-create-sqlite/)** project might help beginners to code a `real` project on top of Flask. For newcomers, Flask is a lightweight web application framework written in Python. By using a database in our project, we can have a persistent data layer that can be reused and updated according to application requirements.  
 
